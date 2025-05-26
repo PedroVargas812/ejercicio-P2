@@ -1,10 +1,9 @@
 package figuras;
 
-public abstract class
-figuras {
+public abstract class Figura {
     protected double x, y;
 
-    public figuras(double x, double y) {
+    public Figura(double x, double y) {
         this.x = x;
         this.y = y;
     }

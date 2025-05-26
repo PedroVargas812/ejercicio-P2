@@ -1,8 +1,10 @@
+// Sebastian Hinojosa Andy Silva y Pedro Vargas
+package figuras;
 public class Geometria {
     public static void main(String[] args) {
         Figura[] figuras = new Figura[] {
                 new Circulo(0, 0, 5),
-                new rectangulo(2, 3, 4, 6),
+                new Rectangulo(2, 3, 4, 6),
                 new Triangulo(-1, -1, 3, 4, 5)
         };
 
